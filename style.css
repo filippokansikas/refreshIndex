@@ -1,0 +1,121 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+}
+#right-nav{
+    align-items: left;
+    width: 150px;
+}
+#left-nav{
+    align-items: right;
+    text-align: right;
+}
+.aligned{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+
+}
+.container{
+        display: flex;
+        text-align: center;
+        flex-flow: column;
+        gap:10px;
+        height: 700px;
+        width: 300px;
+        margin: 10px;
+        padding: 25px 25px 25px 25px;
+        background-color: #c8c4c4;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+    .container-smaller{
+        display: flex;
+        text-align: center;
+        flex-flow: column;
+        gap:10px;
+        height: 250px;
+        width: 300px;
+        margin: 10px;
+        padding: 25px 25px 25px 25px;
+        background-color: #c8c4c4;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+.bgColor{
+    background-color: #e9e8e8;
+    width: 100%; 
+}
+.purpleColor{
+    background-color: #ea2380;
+    color: white;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+.divver{
+    max-width: 200px;
+}
+h2{
+    font-size: 30px;
+    color: #f3177e;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    border-radius: 10px;
+}
+.containerdueterzi{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.left-section {
+    flex: 2; /* Change as needed */
+    padding: 20px;
+
+}
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+}
+.lefter{
+    flex: 2;
+    padding: 20px;
+
+}
+.righter{
+    flex: 2; 
+    padding: 20px;
+
+
+
+}
