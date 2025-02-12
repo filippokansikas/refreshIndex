@@ -118,3 +118,9 @@ img{
 
 
 }
+.header{
+    font-family: "Plus Jakarta Sans", serif;
+    max-width: 720px;
+    display: block;
+    margin:auto;
+}
