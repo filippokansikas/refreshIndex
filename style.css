@@ -28,13 +28,17 @@ h1{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    margin: 50px;
 
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .container{
         display: flex;
         flex-flow: column;
-        gap:10px;
         height: 500px;
         width: 300px;
         margin: 10px;
@@ -97,24 +101,22 @@ img{
     align-items: center;
 }
 .left-section {
-    flex: 2; /* Change as needed */
-    padding: 20px;
-
+    flex: 2; 
+    margin: 50px 50px 0 50px;
 }
 
 .right-section {
     flex: 1;
-    padding: 20px;
+    margin: 50px 50px 0 50px;
 }
 .lefter{
     flex: 2;
-    padding: 20px;
+    margin: 50px 50px 0 50px;
 
 }
 .righter{
-    flex: 2; 
-    padding: 20px;
-
+    flex: 1;
+    margin: 50px 50px 0 50px;
 
 
 }
@@ -123,4 +125,10 @@ img{
     max-width: 720px;
     display: block;
     margin:auto;
+}
+#wrap{
+    text-align: center;
+}
+.indica{
+    color:#345888;
 }
