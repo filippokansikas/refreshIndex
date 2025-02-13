@@ -74,7 +74,8 @@ h1{
     align-content: center;
 }
 .divver{
-    max-width: 200px
+    max-width: 200px;
+    text-align: center;
 }
 h2{
     font-size: 30px;
@@ -205,6 +206,7 @@ img{
   .mid h2 {
     font-family: 'Roboto', sans-serif;
     color: white;
+    font-style: italic;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -214,54 +216,39 @@ img{
     .mid p {
         font-family: 'Roboto', sans-serif;
     color: white;
-
     margin: 0;
     position: absolute;
     top: 70%;
     left: 66%;
     transform: translate(-50%, -50%);
     }
-    <!-- HTML !-->
-<button class="button-46" role="button">Button 46</button>
 
 /* CSS */
 .button-46 {
   align-items: center;
-  background-color: rgba(240, 240, 240, 0.26);
+  background-color: rgba(177, 174, 174, 0.26);
   border: 1px solid #DFDFDF;
-  border-radius: 16px;
   box-sizing: border-box;
-  color: #000000;
+  font-weight: bold;
+  color: #345888;
   cursor: pointer;
   display: flex;
-  font-family: Inter, sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   justify-content: center;
-  line-height: 28px;
+  line-height: 15px;
   max-width: 100%;
-  padding: 14px 22px;
+  padding: 15px 100px;
   text-decoration: none;
   transition: all .2s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 100%;
+
 }
 
-.button-46:active,
-.button-46:hover {
-  outline: 0;
-}
-
-.button-46:hover {
-  background-color: #FFFFFF;
-  border-color: rgba(0, 0, 0, 0.19);
-}
-
-@media (min-width: 768px) {
-  .button-46 {
-    font-size: 20px;
-    min-width: 200px;
-    padding: 14px 16px;
-  }
+.center{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
