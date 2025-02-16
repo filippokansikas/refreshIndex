@@ -31,11 +31,19 @@ h1{
     justify-content: space-around;
 
 }
+.middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .center{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.purple{
+    color: #f3177e;
 }
 .container{
         display: flex;
@@ -177,6 +185,10 @@ img{
     align-items: left;
     text-align: left;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
   }
   .footer-left{
     align-items: left;
@@ -252,13 +264,10 @@ img{
     align-items: center;
     flex-direction: column;
 }
-.a{
+a{
   text-decoration: none;
   font-size: 20px;
   font-family: sans-serif;
-}
-a:visited{
-  color: rgb(52,88,136);
 }
 a:hover{
   text-decoration: underline;
