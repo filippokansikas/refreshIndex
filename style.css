@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -103,21 +104,18 @@ img{
 }
 .left-section {
     flex: 2; 
-    margin: 50px 50px 0 50px;
 }
 
 .right-section {
     flex: 1;
-    margin: 50px 50px 0 50px;
+  
 }
 .lefter{
     flex: 2;
-    margin: 50px 50px 0 50px;
 
 }
 .righter{
     flex: 1;
-    margin: 50px 50px 0 50px;
 
 
 }
@@ -136,6 +134,7 @@ img{
 .footer{
     display: flex;
     padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #345888;
     width: 100%;
 }
@@ -147,6 +146,7 @@ img{
     text-align: center;
     text-decoration: none;
   }
+ 
   
   .fa:hover {
       opacity: 0.7;
@@ -174,9 +174,9 @@ img{
     color: white;
   }
   .footer-right{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: left;
+    text-align: left;
+    padding: 50px;
   }
   .footer-left{
     align-items: left;
@@ -251,4 +251,18 @@ img{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+a:visited{
+  color: rgb(52,88,136);
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active{
+  text-decoration: none;
 }
