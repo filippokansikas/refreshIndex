@@ -112,19 +112,22 @@ img{
 }
 .left-section {
     flex: 2; 
+    margin:10px;
 }
 
 .right-section {
     flex: 1;
+    margin: 10px;
   
 }
 .lefter{
     flex: 2;
+    margin: 10px;
 
 }
 .righter{
     flex: 1;
-
+    margin: 10px;
 
 }
 .header{
@@ -274,4 +277,10 @@ a:hover{
 }
 a:active{
   text-decoration: none;
+}
+.container__purple{
+  color: #f3177e;
+  width: 100%;
+  align-items: center;
+  align-content: center;
 }
